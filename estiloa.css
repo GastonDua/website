@@ -507,6 +507,7 @@ footer p {
 @media screen and (max-width:800px){
     .button.type2{
         width: 100%;
+        
     }
       .logo{
         width: 100%;
@@ -520,12 +521,18 @@ footer p {
                 
     }
     .button{
-        margin: 10px ;
+        margin: 10px 0;
         width: 100%;
     } 
 
-    
-    
+    .buttons{
+        
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .buttons p{
+        margin-right: 0;
+    }
     
     .slider{
         width: 400%;
@@ -571,7 +578,8 @@ footer p {
         margin: none;
     }
     .buttons-f{
-        width: 100%;
+        width: 90%;
+        
     }
     .logo2{
         width: 100%;
@@ -606,6 +614,7 @@ footer p {
        font-size: 15px;
        margin-top: 10px;
        margin-bottom: 15px;
+       
        
     }
     .buttons a {
